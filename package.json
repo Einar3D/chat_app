@@ -14,7 +14,7 @@
     "node": "12.18.4"
   },
   "private": true,
-}
+
   "author": "Mark Salazar",
   "license": "ISC",
   "dependencies": {
