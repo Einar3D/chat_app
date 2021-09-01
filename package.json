@@ -6,14 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  
-  {
-  "name": "web sockets exercise",
-  "version": "14.17.5",
-  "engines": {
-    "node": "12.18.4"
-  },
-  "private": true,
+
 
   "author": "Mark Salazar",
   "license": "ISC",
