@@ -8,8 +8,8 @@
   },
   
   {
-  "name": "express-locallibrary-tutorial",
-  "version": "0.0.0",
+  "name": "web sockets exercise",
+  "version": "14.17.5",
   "engines": {
     "node": "12.18.4"
   },
