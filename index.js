@@ -2,11 +2,15 @@ var express = require('express');
 var app = express();
 
 const PORT = process.env.PORT || 5500;
-var socket = require('socket.io')(5500);
+const http = require('http').Server(app);
 
-var server = app.listen(PORT,function(){
-	console.log('listening to requests on ${PORT}. nice.')
-	});
+var socket = require('socket.io')(http);
+
+app.get('/', (req, res) => res.sendFile(_dirname + 'index.html'));
+
+http.listen(PORT, function() {
+	console.log('listening on ${PORT}');
+})
 
 //static files
 app.use(express.static('public'));
